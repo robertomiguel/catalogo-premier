@@ -1,0 +1,45 @@
+@import './theme/dark-burton.css';
+/* @import './theme/abyssal-azure.css'; */
+/* @import './theme/vivid-crimson.css'; */
+
+@import 'button.css';
+@import 'a.css';
+@import 'input.text.css';
+@import 'input.password.css';
+@import 'textarea.css';
+@import 'select.css';
+@import 'input.checkbox.css';
+@import 'input.email.css';
+@import 'p.css';
+
+/* Estilo para el cuerpo (body) en Dark Burton */
+body {
+    background-color: var(--background-blue);
+    color: var(--text-light);
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+/* Estilos para los scrolls en WebKit (Chrome, Safari, etc.) */
+/* Barra del scroll */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho del scroll */
+}
+
+/* Track (la parte de fondo detrás del thumb) */
+::-webkit-scrollbar-track {
+    background: var(--background-dark); /* Fondo oscuro */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Thumb (la parte móvil del scroll) */
+::-webkit-scrollbar-thumb {
+    background: var(--background-blue); /* Color del thumb */
+}
+
+/* Hover sobre el thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--border-light); /* Color del thumb al pasar el mouse */
+}

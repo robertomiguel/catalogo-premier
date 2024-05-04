@@ -1,0 +1,1198 @@
+{
+    "version": {
+      "label": "versión",
+      "type": "STRING"
+    },
+    "observaciones": {
+      "label": "Observaciones",
+      "type": "STRING"
+    },
+    "description": {
+      "label": "Descripcion",
+      "type": "STRING"
+    },
+    "ficha_tecnica": {
+      "label": "ruta del archivo PDF de ficha tècnica",
+      "type": "STRING"
+    },
+    "origen": {
+      "label": "País de origen",
+      "type": "STRING"
+    },
+    "PERVT": {
+      "label": "Persiana de la ventana trasera",
+      "type": "STRING"
+    },
+    "NETRA": {
+      "label": "Neumáticos traseros",
+      "type": "STRING"
+    },
+    "MOTOR": {
+      "label": "Cilindrada (CC)",
+      "type": "FLOAT"
+    },
+    "CILINDRADA": {
+      "label": "Cilindrada (CC)",
+      "type": "FLOAT"
+    },
+    "VALCO": {
+      "label": "Configuración de la válvula",
+      "values": [
+        "SOHC",
+        "DOHC"
+      ],
+      "type": "ENUM"
+    },
+    "PUERT": {
+      "label": "Puertas",
+      "type": "STRING"
+    },
+    "QPUERTAS": {
+      "label": "Cantidad de puertas",
+      "type": "STRING"
+    },
+    "TORQU": {
+      "label": "Par/Torque máximo (Nm @ rpm)",
+      "type": "STRING"
+    },
+    "NEDEL": {
+      "label": "Neumáticos delanteros",
+      "type": "STRING"
+    },
+    "CODIA": {
+      "label": "Código Infoauto",
+      "type": "STRING"
+    },
+    "CODIGO": {
+      "label": "Código Infoauto",
+      "type": "STRING"
+    },
+    "flatten": {
+      "label": "Indices de busqueda",
+      "type": "STRING"
+    },
+    "AIREA": {
+      "label": "Aire Acondicionado",
+      "type": "BOOLEAN"
+    },
+    "AA": {
+      "label": "Aire Acondicionado",
+      "type": "BOOLEAN"
+    },
+    "TURBO": {
+      "label": "Turbocompresor / Sobrealimentador",
+      "type": "BOOLEAN"
+    },
+    "DOBEN": {
+      "label": "Doble embrague",
+      "type": "BOOLEAN"
+    },
+    "MODCO": {
+      "label": "Modos de conducción",
+      "type": "BOOLEAN"
+    },
+    "VELEC": {
+      "label": "Ventanas eléctricas",
+      "type": "BOOLEAN"
+    },
+    "INMOM": {
+      "label": "Inmovilizador del motor",
+      "type": "BOOLEAN"
+    },
+    "BLOCV": {
+      "label": "Bloqueo de puerta de detección de velocidad",
+      "type": "BOOLEAN"
+    },
+    "BLOCN": {
+      "label": "Bloqueo de seguridad para niños",
+      "type": "BOOLEAN"
+    },
+    "CICEN": {
+      "label": "Cierre Centralizado",
+      "type": "BOOLEAN"
+    },
+    "FRABS": {
+      "label": "Sistema de frenos antibloqueo (ABS)",
+      "type": "BOOLEAN"
+    },
+    "ABS": {
+      "label": "Sistema ABS",
+      "type": "BOOLEAN"
+    },
+    "AIRBA": {
+      "label": "Airbags",
+      "type": "BOOLEAN"
+    },
+    "AIRBAGS": {
+      "label": "Airbags",
+      "type": "BOOLEAN"
+    },
+    "CLIMA": {
+      "label": "Climatizador por zona",
+      "type": "BOOLEAN"
+    },
+    "CLIMAT": {
+      "label": "Climatizador",
+      "type": "BOOLEAN"
+    },
+    "TOM12": {
+      "label": "Tomacorrientes 12V",
+      "type": "BOOLEAN"
+    },
+    "AJDIR": {
+      "label": "Ajuste de dirección",
+      "type": "BOOLEAN"
+    },
+    "ARRAN": {
+      "label": "Arranque sin llave / Arranque con botón",
+      "type": "BOOLEAN"
+    },
+    "FAPAG": {
+      "label": "Faros apagados y recordatorio de encendido",
+      "type": "BOOLEAN"
+    },
+    "COCRU": {
+      "label": "Control de crucero",
+      "type": "BOOLEAN"
+    },
+    "SESTA": {
+      "label": "Sensores de estacionamiento",
+      "type": "BOOLEAN"
+    },
+    "SENSESTA": {
+      "label": "Sensores de estacionamiento",
+      "type": "BOOLEAN"
+    },
+    "AESTA": {
+      "label": "Asistente de estacionamiento",
+      "type": "BOOLEAN"
+    },
+    "EAREF": {
+      "label": "Espejos antirreflejos",
+      "type": "BOOLEAN"
+    },
+    "ESPVI": {
+      "label": "Espejos de vanidad en viseras (Parasol)",
+      "type": "BOOLEAN"
+    },
+    "CALEN": {
+      "label": "Calefacción",
+      "type": "BOOLEAN"
+    },
+    "FANTI": {
+      "label": "Faros antiniebla",
+      "type": "BOOLEAN"
+    },
+    "ANTINIEBLA": {
+      "label": "Antiniebla",
+      "type": "BOOLEAN"
+    },
+    "TCORR": {
+      "label": "Techo corredizo",
+      "type": "BOOLEAN"
+    },
+    "TECHCOR": {
+      "label": "Techo corredizo",
+      "type": "BOOLEAN"
+    },
+    "ALATE": {
+      "label": "Airbags Laterales",
+      "type": "BOOLEAN"
+    },
+    "AIRLAT": {
+      "label": "Airbags Laterales",
+      "type": "BOOLEAN"
+    },
+    "ACABE": {
+      "label": "Airbags cabeza conductor y acompañante",
+      "type": "BOOLEAN"
+    },
+    "AIRCA": {
+      "label": "Aibags conductor y acompañante",
+      "type": "BOOLEAN"
+    },
+    "ACORT": {
+      "label": "Airbags Cortina",
+      "type": "BOOLEAN"
+    },
+    "AIRCOR": {
+      "label": "Airbags de cortina",
+      "type": "BOOLEAN"
+    },
+    "ARODI": {
+      "label": "Airbags Rodilla",
+      "type": "BOOLEAN"
+    },
+    "AIRROD": {
+      "label": "Airbags de rodilla",
+      "type": "BOOLEAN"
+    },
+    "APOST": {
+      "label": "Airbags posteriores",
+      "type": "BOOLEAN"
+    },
+    "ASINT": {
+      "label": "Airbag de cinturón",
+      "type": "BOOLEAN"
+    },
+    "APEAT": {
+      "label": "Airbag de peatones",
+      "type": "BOOLEAN"
+    },
+    "AIRDO": {
+      "label": "Airbags de doble etapa",
+      "type": "BOOLEAN"
+    },
+    "TRESP": {
+      "label": "Cinturón de seguridad de tres puntos trasero medio",
+      "type": "BOOLEAN"
+    },
+    "REPTC": {
+      "label": "Reposacabezas trasero central",
+      "type": "BOOLEAN"
+    },
+    "IPNEU": {
+      "label": "Sistema de control de presión de neumáticos (TPMS)",
+      "type": "BOOLEAN"
+    },
+    "PRESNEUM": {
+      "label": "Control de presión en neumáticos  (TPMS)",
+      "type": "BOOLEAN"
+    },
+    "ISOFI": {
+      "label": "Puntos de anclaje del asiento para niños",
+      "type": "BOOLEAN"
+    },
+    "ISOFIX": {
+      "label": "Ganchos Isofix",
+      "type": "BOOLEAN"
+    },
+    "ADCIS": {
+      "label": "Advertencia del cinturón de seguridad",
+      "type": "BOOLEAN"
+    },
+    "CTRAC": {
+      "label": "Sistema de control de tracción (TC / TCS)",
+      "type": "BOOLEAN"
+    },
+    "CONTRAC": {
+      "label": "Control de tracción (TC/TCS)",
+      "type": "BOOLEAN"
+    },
+    "CESTA": {
+      "label": "Programa de estabilidad electrónica (ESP)",
+      "type": "BOOLEAN"
+    },
+    "ESTABELE": {
+      "label": "Programa de estabilidad electrónica (ESP)",
+      "type": "BOOLEAN"
+    },
+    "CDESC": {
+      "label": "Control de descenso de la colina",
+      "type": "BOOLEAN"
+    },
+    "DESCOLINA": {
+      "label": "Control de descenso",
+      "type": "BOOLEAN"
+    },
+    "SAPEN": {
+      "label": "Sistema de Arranque en Pendiente",
+      "type": "BOOLEAN"
+    },
+    "ARRENPEN": {
+      "label": "Asistente de arranque en pendiente",
+      "type": "BOOLEAN"
+    },
+    "DIFLI": {
+      "label": "Diferencial de deslizamiento limitado (LSD)",
+      "type": "BOOLEAN"
+    },
+    "BDIFE": {
+      "label": "Bloqueo del diferencial",
+      "type": "BOOLEAN"
+    },
+    "BLOQDIF": {
+      "label": "Bloqueo de diferencial",
+      "type": "BOOLEAN"
+    },
+    "CDINA": {
+      "label": "Control dinámico de conducción",
+      "type": "BOOLEAN"
+    },
+    "CCOND": {
+      "label": "Control dinámico de conducción",
+      "type": "BOOLEAN"
+    },
+    "RELEF": {
+      "label": "Sistema electrónico de reparto de frenada (EBD)",
+      "type": "BOOLEAN"
+    },
+    "SREPFREN": {
+      "label": "Sistema electrónico de reparto de frenada (EBD)",
+      "type": "BOOLEAN"
+    },
+    "AFREE": {
+      "label": "Asistencia de frenado (BA)",
+      "type": "BOOLEAN"
+    },
+    "ASISTFREN": {
+      "label": "Asistente de frenado (BA)",
+      "type": "BOOLEAN"
+    },
+    "TAPCU": {
+      "label": "Tapicería del cuero",
+      "type": "BOOLEAN"
+    },
+    "TAPIZADO": {
+      "label": "Tapizado de cuero",
+      "type": "BOOLEAN"
+    },
+    "VOLCU": {
+      "label": "Volante forrado en cuero",
+      "type": "BOOLEAN"
+    },
+    "PALCU": {
+      "label": "Palanca de cambio forrada en cuero",
+      "type": "BOOLEAN"
+    },
+    "AJCON": {
+      "label": "Ajuste del asiento del conductor",
+      "type": "BOOLEAN"
+    },
+    "AJPAD": {
+      "label": "Ajuste del asiento del pasajero delantero",
+      "type": "BOOLEAN"
+    },
+    "APLUM": {
+      "label": "Apoyo lumbar",
+      "type": "BOOLEAN"
+    },
+    "AJLUM": {
+      "label": "Soporte lumbar ajustable",
+      "type": "BOOLEAN"
+    },
+    "REPBR": {
+      "label": "Reposabrazos del conductor",
+      "type": "BOOLEAN"
+    },
+    "ASTRA": {
+      "label": "Asientos del pasajero trasero",
+      "type": "BOOLEAN"
+    },
+    "ASTAJ": {
+      "label": "Asientos ajustables del pasajero trasero",
+      "type": "BOOLEAN"
+    },
+    "AS3FI": {
+      "label": "Asientos de la 3ra fila",
+      "type": "BOOLEAN"
+    },
+    "AS3AJ": {
+      "label": "Ajuste de asiento de la tercera fila",
+      "type": "BOOLEAN"
+    },
+    "ATERM": {
+      "label": "Asientos con ventilación térmica",
+      "type": "BOOLEAN"
+    },
+    "ASIENTCLIMA": {
+      "label": "Asientos climatizados",
+      "type": "BOOLEAN"
+    },
+    "COLIN": {
+      "label": "Colores interiores",
+      "type": "BOOLEAN"
+    },
+    "REPTA": {
+      "label": "Reposabrazos trasero",
+      "type": "BOOLEAN"
+    },
+    "ATPLE": {
+      "label": "Asiento trasero plegable",
+      "type": "BOOLEAN"
+    },
+    "ATPAR": {
+      "label": "Asiento trasero partido",
+      "type": "BOOLEAN"
+    },
+    "A3DIV": {
+      "label": "Asiento dividido en la tercera fila",
+      "type": "BOOLEAN"
+    },
+    "PVASO": {
+      "label": "Portavasos",
+      "type": "BOOLEAN"
+    },
+    "ALMRC": {
+      "label": "Almacenamiento del reposabrazos del conductor",
+      "type": "BOOLEAN"
+    },
+    "GREFR": {
+      "label": "Guantera refrigerada",
+      "type": "BOOLEAN"
+    },
+    "PORLE": {
+      "label": "Porta Lentes",
+      "type": "BOOLEAN"
+    },
+    "PVATR": {
+      "label": "Portavasos trasero",
+      "type": "BOOLEAN"
+    },
+    "VELED": {
+      "label": "Ventanas eléctricas delanteras",
+      "type": "BOOLEAN"
+    },
+    "VELET": {
+      "label": "Ventanas eléctricas traseras",
+      "type": "BOOLEAN"
+    },
+    "OTBAJ": {
+      "label": "One Touch (Descenso)",
+      "type": "BOOLEAN"
+    },
+    "OTSUB": {
+      "label": "One Touch (Ascenso)",
+      "type": "BOOLEAN"
+    },
+    "ORVMA": {
+      "label": "ORVM ajustable electricamente",
+      "type": "BOOLEAN"
+    },
+    "ORVMG": {
+      "label": "Indicador de giro en ORVM",
+      "type": "BOOLEAN"
+    },
+    "DESTR": {
+      "label": "Desempañador trasero",
+      "type": "BOOLEAN"
+    },
+    "LIMTR": {
+      "label": "Limpiaparabrisas trasero",
+      "type": "BOOLEAN"
+    },
+    "LIMPS": {
+      "label": "Limpiaparabrisas con sensor de lluvia",
+      "type": "BOOLEAN"
+    },
+    "PERSP": {
+      "label": "Persianas en puertas",
+      "type": "BOOLEAN"
+    },
+    "AELEC": {
+      "label": "Asientos electrónicos",
+      "type": "BOOLEAN"
+    },
+    "ASIENTOSELE": {
+      "label": "Asientos electrónicos",
+      "type": "BOOLEAN"
+    },
+    "TPANO": {
+      "label": "Techo panorámico",
+      "type": "BOOLEAN"
+    },
+    "TECHPAN": {
+      "label": "Techo vidriado panorámico",
+      "type": "BOOLEAN"
+    },
+    "RIETE": {
+      "label": "Rieles de techo",
+      "type": "BOOLEAN"
+    },
+    "ESCAP": {
+      "label": "Tubo de escape de acabado cromado",
+      "type": "BOOLEAN"
+    },
+    "FAUTO": {
+      "label": "Faros automáticos en oscuridad",
+      "type": "BOOLEAN"
+    },
+    "SIGCA": {
+      "label": "Función Sígueme a casa",
+      "type": "BOOLEAN"
+    },
+    "LUCDI": {
+      "label": "Luces de circulación diurna (DRL)",
+      "type": "BOOLEAN"
+    },
+    "LCABI": {
+      "label": "Lámparas de Cabina",
+      "type": "BOOLEAN"
+    },
+    "LAMPG": {
+      "label": "Lámpara de guantera",
+      "type": "BOOLEAN"
+    },
+    "LUCEV": {
+      "label": "Luces en los espejos de vanidad",
+      "type": "BOOLEAN"
+    },
+    "LAMTR": {
+      "label": "Lámpara de lectura trasera",
+      "type": "BOOLEAN"
+    },
+    "FACUR": {
+      "label": "Faros de curva (Cornering Headlights)",
+      "type": "BOOLEAN"
+    },
+    "MEREC": {
+      "label": "Medidor de recorrido (Odómetro)",
+      "type": "BOOLEAN"
+    },
+    "ADVCO": {
+      "label": "Advertencia de bajo nivel de combustible",
+      "type": "BOOLEAN"
+    },
+    "ADVPU": {
+      "label": "Advertencia de puerta entreabierta",
+      "type": "BOOLEAN"
+    },
+    "INMAC": {
+      "label": "Indicador de marcha actual",
+      "type": "BOOLEAN"
+    },
+    "INCAM": {
+      "label": "Indicador de cambio de marcha",
+      "type": "BOOLEAN"
+    },
+    "HUDIS": {
+      "label": "Heads Up Display (HUD)",
+      "type": "BOOLEAN"
+    },
+    "SISMU": {
+      "label": "Sistema de música integrado (en el tablero)",
+      "type": "BOOLEAN"
+    },
+    "PANTR": {
+      "label": "Pantalla para pasajeros traseros",
+      "type": "BOOLEAN"
+    },
+    "SIGPS": {
+      "label": "Sistema de navegación GPS",
+      "type": "BOOLEAN"
+    },
+    "ALVOC": {
+      "label": "Altavoces",
+      "type": "BOOLEAN"
+    },
+    "COUSB": {
+      "label": "Compatibilidad USB",
+      "type": "BOOLEAN"
+    },
+    "COAUX": {
+      "label": "Compatibilidad Auxiliar",
+      "type": "BOOLEAN"
+    },
+    "COBLT": {
+      "label": "Compatibilidad con Bluetooth",
+      "type": "BOOLEAN"
+    },
+    "REMP3": {
+      "label": "Reproducción de MP3",
+      "type": "BOOLEAN"
+    },
+    "REPCD": {
+      "label": "Reproductor de CD",
+      "type": "BOOLEAN"
+    },
+    "REDVD": {
+      "label": "Reproducción de DVD",
+      "type": "BOOLEAN"
+    },
+    "RAMFM": {
+      "label": "Radio AM / FM",
+      "type": "BOOLEAN"
+    },
+    "CIPOD": {
+      "label": "Compatibilidad con iPod",
+      "type": "BOOLEAN"
+    },
+    "COSAT": {
+      "label": "Controles montados en la dirección (Satelital)",
+      "type": "BOOLEAN"
+    },
+    "CMVOZ": {
+      "label": "Comando de voz",
+      "type": "BOOLEAN"
+    },
+    "SLLUV": {
+      "label": "Sensor de Lluvia",
+      "type": "BOOLEAN"
+    },
+    "SENSLLU": {
+      "label": "Sensores de Lluvia",
+      "type": "BOOLEAN"
+    },
+    "SCREP": {
+      "label": "Sensor Crepuscular",
+      "type": "BOOLEAN"
+    },
+    "SENSCRE": {
+      "label": "Sensor crepúscular",
+      "type": "BOOLEAN"
+    },
+    "VLEVA": {
+      "label": "Volante con levas",
+      "type": "BOOLEAN"
+    },
+    "LEVAS": {
+      "label": "Levas al volante",
+      "type": "BOOLEAN"
+    },
+    "BLUET": {
+      "label": "Bluetooth",
+      "type": "BOOLEAN"
+    },
+    "BLUETH": {
+      "label": "Bluetooth",
+      "type": "BOOLEAN"
+    },
+    "importacion": {
+      "label": "Importación",
+      "type": "BOOLEAN"
+    },
+    "LARGO": {
+      "label": "Largo de vehículo",
+      "type": "FLOAT"
+    },
+    "LARGOV": {
+      "label": "Largo (m)",
+      "type": "FLOAT"
+    },
+    "ANCHO": {
+      "label": "Ancho de vehículo",
+      "type": "FLOAT"
+    },
+    "ANCHOV": {
+      "label": "Ancho (m)",
+      "type": "FLOAT"
+    },
+    "ALTO": {
+      "label": "Alto de vehículo",
+      "type": "FLOAT"
+    },
+    "ALTOV": {
+      "label": "Alto (m)",
+      "type": "FLOAT"
+    },
+    "DISEJ": {
+      "label": "Distancia entre ejes",
+      "type": "FLOAT"
+    },
+    "PESOV": {
+      "label": "Peso en vacío",
+      "type": "FLOAT"
+    },
+    "ANIOE": {
+      "label": "Año de último precio",
+      "type": "INTEGER"
+    },
+    "DESDE": {
+      "label": "Año desde",
+      "type": "INTEGER"
+    },
+    "HASTA": {
+      "label": "Año hasta",
+      "type": "INTEGER"
+    },
+    "MINGI": {
+      "label": "Radio de giro mínimo (Metros)",
+      "type": "FLOAT"
+    },
+    "VALCI": {
+      "label": "Válvulas por cilindro",
+      "type": "INTEGER"
+    },
+    "CDASI": {
+      "label": "Capacidad de asientos",
+      "type": "INTEGER"
+    },
+    "FILAS": {
+      "label": "N° de filas de asientos",
+      "type": "INTEGER"
+    },
+    "CAPCU": {
+      "label": "Capacidad del tanque de combustible (Litros)",
+      "type": "INTEGER"
+    },
+    "PESOT": {
+      "label": "Peso total",
+      "type": "FLOAT"
+    },
+    "PESOTOTAL": {
+      "label": "Peso total del auto",
+      "type": "FLOAT"
+    },
+    "VEMAX": {
+      "label": "Velocidad máxima (km/h)",
+      "type": "INTEGER"
+    },
+    "VELOC": {
+      "label": "Velocidad máxima",
+      "type": "INTEGER"
+    },
+    "POTEN": {
+      "label": "Potencia máxima (bhp @ rpm)",
+      "type": "INTEGER"
+    },
+    "KMXLI": {
+      "label": "Kilometraje por litro",
+      "type": "FLOAT"
+    },
+    "ENGRA": {
+      "label": "Nro de marchas (Cambios)",
+      "type": "INTEGER"
+    },
+    "COMBU": {
+      "label": "Tipo de combustible",
+      "values": [
+        "NAFTA",
+        "DIESEL",
+        "ELECTRICO",
+        "HIBRIDO",
+        "GNC",
+        "HIDROGENO",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "COMBUSTIBLE": {
+      "label": "Tipo de combustible",
+      "values": [
+        "NAFTA",
+        "DIESEL",
+        "ELECTRICO",
+        "HIBRIDO",
+        "GNC",
+        "HIDROGENO",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "COALT": {
+      "label": "Combustible alternativo",
+      "values": [
+        "NO",
+        "NO APLICA",
+        "GNC",
+        "ELECTRICO",
+        "BIODIESEL",
+        "HIDROGENO",
+        "FLEX (GAS PROPANO)",
+        "SOLAR"
+      ],
+      "type": "ENUM"
+    },
+    "ALIME": {
+      "label": "Tipo de motor",
+      "values": [
+        "NO",
+        "INYECCION MULTI PUNTO",
+        "BOMBA",
+        "TURBO DIESEL INYECCION",
+        "TURBO DIESEL",
+        "CARBURADO",
+        "TURBOALIMENTADO",
+        "INYECCION SIMPLE PUNTO",
+        "OTRO",
+        "MPI"
+      ],
+      "type": "ENUM"
+    },
+    "TMOTOR": {
+      "label": "Tipo de motor",
+      "values": [
+        "NO",
+        "INYECCION MULTI PUNTO",
+        "BOMBA",
+        "TURBO DIESEL INYECCION",
+        "TURBO DIESEL",
+        "CARBURADO",
+        "TURBOALIMENTADO",
+        "INYECCION SIMPLE PUNTO",
+        "OTRO",
+        "MPI"
+      ],
+      "type": "ENUM"
+    },
+    "SUDEL": {
+      "label": "Suspensión delantera",
+      "values": [
+        "SUSPENSIÓN DE EJE OSCILANTE",
+        "SUSPENSIÓN DE BRAZOS TIRADOS",
+        "SUSPENSIÓN MCPHERSON",
+        "SUSPENSIÓN DE PARALELOGRAMO DEFORMABLE",
+        "SUSPENSION MULTIBRAZO (MULTILINK)"
+      ],
+      "type": "ENUM"
+    },
+    "SUTRA": {
+      "label": "Suspensión trasera",
+      "values": [
+        "SUSPENSIÓN DE EJE OSCILANTE",
+        "SUSPENSIÓN DE BRAZOS TIRADOS",
+        "SUSPENSIÓN MCPHERSON",
+        "SUSPENSIÓN DE PARALELOGRAMO DEFORMABLE",
+        "SUSPENSION MULTIBRAZO (MULTILINK)"
+      ],
+      "type": "ENUM"
+    },
+    "FRDEL": {
+      "label": "Tipo de freno delantero",
+      "values": [
+        "TAMBOR",
+        "DISCO DE CARBONO CERAMICOS",
+        "DISCOS FLOTANTES CON PINZAS FIJAS",
+        "DISCOS RANURADOS CON PINZAS FIJAS",
+        "VENTILADOS CON PINZAS FIJAS",
+        "VENTILADOS CON PINZAS FLOTANTES"
+      ],
+      "type": "ENUM"
+    },
+    "FRTRA": {
+      "label": "Tipo de freno trasero",
+      "values": [
+        "HIDRAULICO",
+        "AIRE"
+      ],
+      "type": "ENUM"
+    },
+    "CLASI": {
+      "label": "Clasificación",
+      "type": "STRING"
+    },
+    "SEGMENTO": {
+      "label": "Tipo de Segmento",
+      "type": "STRING"
+    },
+    "estado": {
+      "label": "Estado del Item",
+      "values": [
+        "PARCIAL",
+        "COMPLETO"
+      ],
+      "type": "ENUM"
+    },
+    "CABIN": {
+      "label": "Tipo de cabina",
+      "values": [
+        "NO",
+        "CABINA SIMPLE",
+        "CABINA DOBLE",
+        "CABINA DORMITORIO",
+        "SIN CABINA"
+      ],
+      "type": "ENUM"
+    },
+    "CABINA": {
+      "label": "Tipo de cabina",
+      "values": [
+        "NO",
+        "CABINA SIMPLE",
+        "CABINA DOBLE",
+        "CABINA DORMITORIO",
+        "SIN CABINA"
+      ],
+      "type": "ENUM"
+    },
+    "DIREC": {
+      "label": "Tipo de dirección",
+      "values": [
+        "MECANICA",
+        "HIDRAULICA",
+        "ELECTRO-HIDRAULICA",
+        "ELECTRICA",
+        "ASISTIDA",
+        "NORMAL",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "DIRECC": {
+      "label": "Tipo de dirección",
+      "values": [
+        "MECANICA",
+        "HIDRAULICA",
+        "ELECTRO-HIDRAULICA",
+        "ELECTRICA",
+        "ASISTIDA",
+        "NORMAL",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "LLANT": {
+      "label": "Llanta",
+      "values": [
+        "CHAPA SIN TAPA",
+        "CHAPA CON TAPA COBERTORA",
+        "ALEACION"
+      ],
+      "type": "ENUM"
+    },
+    "RUAUX": {
+      "label": "Rueda de Auxilio",
+      "values": [
+        "CHAPA SIN TAPA",
+        "CHAPA CON TAPA COBERTORA",
+        "ALEACION"
+      ],
+      "type": "ENUM"
+    },
+    "TRACC": {
+      "label": "Tracción",
+      "values": [
+        "NO",
+        "DELANTERA",
+        "TRASERA",
+        "PERMANENTE",
+        "4X4",
+        "AWD",
+        "FWD",
+        "4WD",
+        "OTRO",
+        "DEL"
+      ],
+      "type": "ENUM"
+    },
+    "TRACCION": {
+      "label": "Tipo de tracción",
+      "values": [
+        "NO",
+        "DELANTERA",
+        "TRASERA",
+        "PERMANENTE",
+        "4X4",
+        "AWD",
+        "FWD",
+        "4WD",
+        "OTRO",
+        "DEL"
+      ],
+      "type": "ENUM"
+    },
+    "CAJAV": {
+      "label": "Tipo de transmisión",
+      "values": [
+        "MANUAL",
+        "AUTOMATICO",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "TRANSMI": {
+      "label": "Transmisión",
+      "values": [
+        "MANUAL",
+        "AUTOMATICO",
+        "OTRO"
+      ],
+      "type": "ENUM"
+    },
+    "REPCA": {
+      "label": "Reposacabezas",
+      "values": [
+        "DELANTEROS",
+        "TRASEROS",
+        "AMBOS"
+      ],
+      "type": "ENUM"
+    },
+    "CLREX": {
+      "label": "Persiana de la ventana trasera",
+      "values": [
+        "PLASTICO",
+        "CROMADO",
+        "COLOR DE CARROCERIA"
+      ],
+      "type": "ENUM"
+    },
+    "COLPG": {
+      "label": "Color de paragolpes",
+      "values": [
+        "PLASTICO",
+        "COLOR DE CARROCERIA",
+        "IMPRIMACION"
+      ],
+      "type": "ENUM"
+    },
+    "VAGMO": {
+      "label": "Vagueta / Moldura",
+      "values": [
+        "NO",
+        "PLASTICO",
+        "CROMADO",
+        "COLOR DE CARROCERIA"
+      ],
+      "type": "ENUM"
+    },
+    "FAROS": {
+      "label": "Tipo de faros",
+      "values": [
+        "HALOGENOS",
+        "LED",
+        "XENON"
+      ],
+      "type": "ENUM"
+    },
+    "GRPIN": {
+      "label": "Grupo de instrumentos",
+      "values": [
+        "ANALOGO",
+        "DIGITAL"
+      ],
+      "type": "ENUM"
+    },
+    "TAMUP": {
+      "label": "Tamaño de pantalla (“)",
+      "type": "FLOAT"
+    },
+    "PANTA": {
+      "label": "Pantalla",
+      "values": [
+        "SIMPLE DISPLAY",
+        "TOUCH-SCREEN",
+        "LCD-SCREEN"
+      ],
+      "type": "ENUM"
+    },
+    "ABAUL": {
+      "label": "Apertura de baúl",
+      "values": [
+        "INTERIOR",
+        "EXTERIOR",
+        "INTERIOR/EXTERIOR"
+      ],
+      "type": "ENUM"
+    },
+    "price": {
+      "label": "Precio",
+      "type": "FLOAT"
+    },
+    "factoryBonus": {
+      "label": "Bonif. fabrica",
+      "type": "FLOAT"
+    },
+    "currencyType": {
+      "label": "Moneda",
+      "type": "STRING"
+    },
+    "curated": {
+      "label": "Indica si el campo ya fue curado o no",
+      "type": "BOOLEAN"
+    },
+    "BAUL": {
+      "label": "Capacidad del baúl (litros)",
+      "type": "INTEGER"
+    },
+    "CAIRB": {
+      "label": "Cantidad de Airbags",
+      "type": "INTEGER"
+    },
+    "DDSUE": {
+      "label": "Despeje del suelo (cm)",
+      "type": "FLOAT"
+    },
+    "CAPCA": {
+      "label": "Capacidad de carga (Kg)",
+      "type": "FLOAT"
+    },
+    "VOLCA": {
+      "label": "Volumen de carga (m3)",
+      "type": "FLOAT"
+    },
+    "CAPAR": {
+      "label": "Capacidad de arrastre (Kg)",
+      "type": "FLOAT"
+    },
+    "TADAS": {
+      "label": "Tecnologías ADAS",
+      "type": "BOOLEAN"
+    },
+    "CDVPE": {
+      "label": "Cámara de visión periférica",
+      "type": "BOOLEAN"
+    },
+    "FADEM": {
+      "label": "Frenado autónomo de emergencia",
+      "type": "BOOLEAN"
+    },
+    "DDPEA": {
+      "label": "Detección de peatones",
+      "type": "BOOLEAN"
+    },
+    "ACDCA": {
+      "label": "Alerta cambio de carril",
+      "type": "BOOLEAN"
+    },
+    "ADPCI": {
+      "label": "Alerta de punto ciego",
+      "type": "BOOLEAN"
+    },
+    "APLDC": {
+      "label": "Asistencia para luz de carretera",
+      "type": "BOOLEAN"
+    },
+    "CCADA": {
+      "label": "Control crucero adaptativo",
+      "type": "BOOLEAN"
+    },
+    "STNGO": {
+      "label": "Stop & go",
+      "type": "BOOLEAN"
+    },
+    "DDSDT": {
+      "label": "Detector de señales de tránsito",
+      "type": "BOOLEAN"
+    },
+    "DDFAT": {
+      "label": "Detector de fatiga",
+      "type": "BOOLEAN"
+    },
+    "ADTCR": {
+      "label": "Alerta de tráfico cruzado",
+      "type": "BOOLEAN"
+    },
+    "ADCFR": {
+      "label": "Alerta de colisión frontal",
+      "type": "BOOLEAN"
+    },
+    "DDIDC": {
+      "label": "Detector de inatención del conductor",
+      "type": "BOOLEAN"
+    },
+    "AAPSA": {
+      "label": "Asistente activo para salida de aparcamiento",
+      "type": "BOOLEAN"
+    },
+    "CAMES": {
+      "label": "Cámara de estacionamiento",
+      "values": [
+        "TRASERA",
+        "DELANTERA",
+        "TRASERA Y DELANTERA"
+      ],
+      "type": "ENUM"
+    },
+    "TIPTA": {
+      "label": "Tipo de tapizado",
+      "values": [
+        "CUERO",
+        "TELA",
+        "ALCÁNTARA",
+        "FOAM",
+        "MICROFIBRA",
+        "SIMIL CUERO",
+        "MIXTO"
+      ],
+      "type": "ENUM"
+    },
+    "LDPRO": {
+      "label": "Llave de proximidad",
+      "type": "BOOLEAN"
+    },
+    "JANTI": {
+      "label": "Jaula antivuelco",
+      "type": "BOOLEAN"
+    }
+  }
