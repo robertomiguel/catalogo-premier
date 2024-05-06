@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import mediaQuery from './mediaQueries'
 
 const SelectContainer = styled.div`
   display: flex;
@@ -15,6 +16,14 @@ const SelectContainer = styled.div`
   position: sticky;
   top: 0;
   background-color: var(--background-blue-transparent);
+  @media ${mediaQuery.mobile} {
+    position: relative;
+  }
+`
+
+const SelVersionText = styled.div`
+  text-align: center;
+  margin-top: 40px;
 `
 
 const SpecsCard = styled.div`
@@ -24,7 +33,29 @@ const SpecsCard = styled.div`
 `
 
 const SpecsCardTitle = styled.div`
-text-align: center;
+  text-align: center;
 `
 
-export { SelectContainer, SpecsCard, SpecsCardTitle }
+const ToUpButton = styled.div`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--background-darker-transparent);
+  color: var(--text-light);
+  border: 1px solid var(--text-light);
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 1000;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    color: var(--border-light);
+    outline: 1px solid var(--border-light);
+  }
+`
+
+export { SelectContainer, SpecsCard, SpecsCardTitle, ToUpButton, SelVersionText }

@@ -1,4 +1,4 @@
-input[type="email"] {
+input[type="number"] {
     background-color: var(--background-dark);
     color: var(--text-light);
     border: 1px solid var(--border-dark);
@@ -12,12 +12,20 @@ input[type="email"] {
     white-space: nowrap;
     overflow: hidden;
 }
-input[type="email"]:hover {
+input[type="number"]:hover {
     border-color: var(--border-light);
 }
 
-input[type="email"]:disabled {
+input[type="number"]:disabled {
     background-color: var(--disabled-background);
     color: var(--disabled-text);
     border-color: var(--disabled-background);
+}
+
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }

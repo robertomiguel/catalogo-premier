@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown, Label, ClearIcon, Menu, Option, LoadingIcon } from './Select.styled';
+import { Dropdown, Label, ClearIcon, Menu, Option, LoadingIcon, InputContainer } from './Select.styled';
 import { capitalize } from '../common/capitalize';
 
 export const orderByKey = (arr: any[], key: string) => {
@@ -35,7 +35,7 @@ export const Select = ({ label, name, options = [], selected, onChange, isLoadin
 
     return <Dropdown>
         {label && <Label>{label}</Label>}
-        <div style={{ position: 'relative', display: 'inline-block'}}>
+        <InputContainer>
             <input
                 ref={inputRef}
                 type="text"
@@ -47,7 +47,7 @@ export const Select = ({ label, name, options = [], selected, onChange, isLoadin
             />
             {selected?.id && <ClearIcon onClick={() => onChange(null)}>X</ClearIcon>}
             {isLoading && <LoadingIcon />}
-        </div>
+        </InputContainer>
         {isOpen &&
             <Menu
                 ref={menuRef}

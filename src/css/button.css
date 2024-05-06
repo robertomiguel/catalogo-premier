@@ -4,11 +4,11 @@ button {
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: .05em;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
+    max-height: 38px;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 

@@ -1,8 +1,26 @@
 import { Firestore } from "firebase/firestore"
 import { Photos } from "./types/car"
 
-interface AppProps {
-    db: Firestore
+interface IAppContext {
+    db: Firestore | undefined
+    isAdmin?: boolean
+}
+
+interface YupLocaleConfig {
+    mixed: {
+        default: string,
+        required: string,
+    },
+    number: {
+        min: string,
+        max: string,
+    },
+    string: {
+        min: string,
+        max: string,
+        email: string,
+    },
+    
 }
   
 interface Segment {
@@ -40,4 +58,4 @@ interface Loading {
     version: boolean
 }
 
-export type { AppProps, Segment, Brand, Model, Version, Loading }
+export type { IAppContext, Segment, Brand, Model, Version, Loading, YupLocaleConfig }

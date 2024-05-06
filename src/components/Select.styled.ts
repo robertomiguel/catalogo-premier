@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import mediaQuery from '../mediaQueries';
 
 const fadeIn = keyframes`
     from {
@@ -31,6 +32,18 @@ const Dropdown = styled.div`
     display: flex;
     flex-direction: column;
     gap: .3rem;
+    @media ${mediaQuery.mobile} {
+        width: 100%;
+    }
+`
+
+const InputContainer = styled.div`
+    position: relative;
+    display: inline-block;
+    & input {
+        display: unset;
+        width: -webkit-fill-available;
+    }
 `
 
 const Label = styled.label`
@@ -42,7 +55,7 @@ const Label = styled.label`
 const ClearIcon = styled.div`
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); /* Centra verticalmente el icono */
+    transform: translateY(-50%);
     right: 0;
     margin-right: 5px;
     background-color: var(--background-blue);
@@ -55,10 +68,10 @@ const ClearIcon = styled.div`
     padding: 4px;
     color: var(--text-light);
     font-size: 12px;
-    margin-left: .7rem;
     &:hover {
         cursor: pointer;
-        color: var(--text-dark);
+        color: var(--border-light);
+        outline: 1px solid var(--border-light);
     }
 `
 
@@ -115,4 +128,4 @@ const Option = styled.div<{selected?: boolean}>`
     }
 `
 
-export { Dropdown, Label, ClearIcon, Menu, Option, LoadingIcon }
+export { Dropdown, Label, ClearIcon, Menu, Option, LoadingIcon, InputContainer }

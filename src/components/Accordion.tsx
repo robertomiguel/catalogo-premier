@@ -11,7 +11,7 @@ interface AccordionProps {
 }
 
 export const Accordion = ({ options }: AccordionProps) => {
-    const [ activeIndex, setActiveIndex ] = React.useState<number | null>(0)
+    const [ activeIndex, setActiveIndex ] = React.useState<number | null>(null)
 
     const handleClick = ( idx: number) => {
         setActiveIndex(idx === activeIndex ? null : idx)
@@ -24,7 +24,12 @@ export const Accordion = ({ options }: AccordionProps) => {
     return <Container>
         {options.map((option, index) => {
             return <Card key={`accordion-${index}-${option.label}`}>
-                <Label onClick={() => handleClick(index)} >{option.label}</Label>
+                <Label
+                    isActive={activeIndex === index}
+                    onClick={() => handleClick(index)}
+                >
+                    {option.label}
+                </Label>
                 {activeIndex === index && <Content>{option.content}</Content>}
             </Card>
         })}

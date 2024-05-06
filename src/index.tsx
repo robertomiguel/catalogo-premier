@@ -4,6 +4,7 @@ import App from './App';
 import { initializeApp } from "firebase/app";
 import { Firestore, getFirestore } from 'firebase/firestore'
 import './css/index.css';
+import AppContext from './appContext';
 
 const handleKeyPress = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
@@ -32,6 +33,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App db={db} />
+    <AppContext.Provider value={{ isAdmin: window.location.href.includes('?fordCargo!!2030'), db: db }}>
+      <App />
+    </AppContext.Provider>
   </React.StrictMode>
 );

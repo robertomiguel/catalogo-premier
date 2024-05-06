@@ -23,14 +23,15 @@ const Card = styled.div`
   transition: max-height 0.3s ease-in-out;
 `;
 
-const Label = styled.div`
+const Label = styled.div<{ isActive: boolean }>`
   &:hover {
     cursor: pointer;
     background-color: var(--border-light);
-    color: var(--background-dark);
+    color: var(--border-light);
   }
   font-size: 18px;
-  background-color: var(--background-darker);
+  background: var(--background-blue-degraded);
+  background-color: ${({ isActive }) => isActive ? 'var(--border-light)' : 'unset' };
   height: 40px;
   display: flex;
   align-items: center;

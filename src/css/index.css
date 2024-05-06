@@ -11,6 +11,8 @@
 @import 'input.checkbox.css';
 @import 'input.email.css';
 @import 'p.css';
+@import 'label.css';
+@import 'input.number.css';
 
 /* Estilo para el cuerpo (body) en Dark Burton */
 body {
@@ -19,6 +21,14 @@ body {
     font-family: Arial, sans-serif;
     letter-spacing: 1px;
     user-select: none;
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
 }
 
 /* Estilos para los scrolls en WebKit (Chrome, Safari, etc.) */
