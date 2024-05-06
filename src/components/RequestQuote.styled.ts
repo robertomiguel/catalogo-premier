@@ -5,8 +5,6 @@ const Container = styled.div`
     margin: 0 auto;
     width: fit-content;
     margin-bottom: 20px;
-    position: sticky;
-    top: 100px;
     background-color: var(--background-blue-transparent);
     width: 220px;
     height: 60px;

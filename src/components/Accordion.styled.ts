@@ -14,7 +14,7 @@ const slideDown = keyframes`
 
 // Estiliza los componentes
 const Container = styled.div`
-width: 100%;
+  width: 100%;
   max-width: 616px;
   margin: 0 auto;
 `;
